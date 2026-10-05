@@ -117,9 +117,14 @@ The current branch is always shown in the header.
 
 | Problem | Fix |
 |---|---|
-| `Cannot find package …` in a Watch/Build log | The theme's packages are out of date. Delete that theme's `node_modules`; the next click reinstalls it. |
+| `Cannot find package …` in a Watch/Build log | The theme's packages are out of date. Delete that theme's `node_modules`; the next click reinstalls it. | 
 | Log's first line shows `node v20` (or anything but 24) | Install nvm, or switch your system Node to 24. |
 | ULI says `uli failed` | DDEV isn't running, or that site's database isn't installed locally. |
 | Storybook stays on **Starting…** | Open its log tab. Usually the port is taken by a Storybook running elsewhere. |
 | Update Site: "config/ has uncommitted changes" | Run `git status config/`. Restore anything you didn't change on purpose (`git restore -- config/`). |
 | Page shows "Dashboard stopped" | The script isn't running. Start it again and the tab reconnects. |
+
+
+
+## Screenshot: 
+<img width="992" height="654" alt="image" src="https://github.com/user-attachments/assets/425f6dd5-32c9-4767-a4f4-7e54c443641b" />
